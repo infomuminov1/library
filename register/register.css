@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:url('../photos/menu.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    width:450px;
+    height: 70px;
+    border:1px solid white;
+    border-radius:10px;
+    background:rgba(0, 0, 0, 0.171);
+    padding: 15px;
+    overflow: hidden;
+    margin-left: 300px;
+}
+.bigtext{
+    text-align:left;
+    margin-left: 330px;
+    margin-top:60px;
+}
+h1{
+    text-align:center;
+    color:white;
+}
+
+.login{
+    height: 70px;
+   
+}
+
+input{
+     width: 200px;
+    padding:10px;
+    border-radius:20px;
+    margin-left:130px;
+    background:none;
+    border:none;
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+}
+input:focus{
+    background:white;
+    width: 220px;
+    transition: 0.3s;
+}
+button{
+    width: 150px;
+    padding:10px;
+    margin-left: 150px;
+}
+.btn{
+    margin-top:40px;
+    background:rgba(255, 255, 255, 0.411);
+    border-radius:10px;
+
+
+}
+.btn:hover{
+    background:rgba(255, 255, 255, 0.74);
+    transition: 0.2s;
+}
+.remem{
+    width: 30px;;
+    margin:0;
+    padding:0;
+}
+.remem:focus{
+    background:black;
+    margin:0;
+    padding:0;
+    width:30px ;
+}
+
+h4{
+    text-align: center;
+    margin-top:16px;
+}
+.input{
+    margin-top:50px;
+}
+.btnlog{
+    margin-top:40px;
+    background:rgba(255, 255, 255, 0.411);
+    border-radius:10px;
+}
+/* position o'chirib margin beriladi va to'g'irlanadi */
