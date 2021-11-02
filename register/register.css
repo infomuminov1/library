@@ -18,6 +18,7 @@ div{
     padding: 15px;
     overflow: hidden;
     margin-left: 300px;
+    margin-top:40px;
 }
 .bigtext{
     text-align:left;
@@ -31,7 +32,7 @@ h1{
 
 .login{
     height: 70px;
-   
+
 }
 
 input{
@@ -89,4 +90,11 @@ h4{
     background:rgba(255, 255, 255, 0.411);
     border-radius:10px;
 }
-/* position o'chirib margin beriladi va to'g'irlanadi */
+.sigin:hover{
+    height:440px;
+    transition: 1s;
+}
+.login:hover{
+    height:370px;
+    transition:1s;
+}
